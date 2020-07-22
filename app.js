@@ -21,10 +21,10 @@ app.get("/resources", function(req, res) {
     res.render("resources.html");
 });
 
-// app.listen(process.env.PORT, process.env.IP, function() { 
-//     console.log("Express server is running...");
-// });
-
-app.listen("8080", "127.0.0.1", function() { 
+app.listen(process.env.PORT, process.env.IP, function() { 
     console.log("Express server is running...");
 });
+
+// app.listen("8080", "127.0.0.1", function() { 
+//     console.log("Express server is running...");
+// });
